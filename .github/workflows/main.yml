@@ -11,7 +11,7 @@ jobs:
         with:
           node-version: '22.0.0'
           cache: 'npm'
-          cache-dependency-path: put-rocket-frontend/package-lock.json
+          cache-dependency-path: package-lock.json
 
       - run: npm install
 
